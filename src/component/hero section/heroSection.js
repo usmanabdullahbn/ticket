@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function HeroSection() {
+const HeroSection= ()=> {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-sky-50 to-white overflow-hidden">
       {/* Navigation */}
@@ -81,3 +81,4 @@ export default function HeroSection() {
     </div>
   );
 }
+export default HeroSection;
